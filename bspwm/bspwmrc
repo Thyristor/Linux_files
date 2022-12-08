@@ -1,7 +1,7 @@
-#! /bin/sh
+#!/bin/sh
 
-xrandr --auto --output eDP-1 -s 1920x1080 -r 60.00
-xrandr --auto --output HDMI-1 -s 1920x1080 -r 120.00 --left-of eDP-1
+xrandr --output HDMI-1 -s 1920x1080 -r 120.00
+xrandr --output eDP-1 -s 1920x1080 -r 60.00
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
@@ -22,5 +22,5 @@ bspc rule -a Screenkey manage=off
 
 # AutoStart
 picom &
-feh --bg-fill --randomize ~/Pictures/wallpapers/*
+feh --bg-fill --randomize ~/usr/share/backgrounds/*
 $HOME/.config/polybar/launch.sh
