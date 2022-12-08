@@ -1,5 +1,8 @@
 #! /bin/sh
 
+xrandr --output HDMI-1 -s 1920x1080 -r 120.00
+xrandr --output eDP-1 -s 1920x1080 -r 60.00
+
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
