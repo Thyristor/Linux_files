@@ -333,7 +333,7 @@ sudo pacman -S screenkey # Instala un programa que muestra por pantalla las tecl
 pacman -S grub-customizer
 
 
-# Cambiar Qtile por bspwm (tiling window manager), sxhkd (X hotkey daemon) y picom (transparency, blur and rounded corners), polybar (barra de tareas)
+# Cambiar Qtile por bspwm (tiling window manager), sxhkd (X hotkey daemon) y picom (transparency, blur and rounded corners), polybar (barra de tareas), nitrogen (fondos pantalla)
 # https://youtu.be/CivY-yfRBeY
 # https://terminalroot.com.br/2021/06/como-instalar-e-configurar-o-bspwm-com-temas-para-polybar.html
 # https://youtu.be/mHLwfI1nHHY
@@ -341,7 +341,7 @@ pacman -S grub-customizer
 # https://www.youtube.com/watch?v=qXKM5K95WIc
 # https://youtu.be/5qny4p3w_bE
 # sudo apt install sxhkd # Execute programs using Keybindings
-pacman -S bspwm sxhkd polybar rofi feh
+pacman -S bspwm sxhkd polybar rofi feh nitrogen
 paru -S picom-ibhagwan-git
 mkdir ~/.config/bspwm
 mkdir ~/.config/sxhkd
