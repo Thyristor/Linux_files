@@ -339,6 +339,7 @@ pacman -S grub-customizer
 # https://youtu.be/mHLwfI1nHHY
 # https://youtu.be/mRY5qisOBhk
 # https://www.youtube.com/watch?v=qXKM5K95WIc
+# https://youtu.be/5qny4p3w_bE
 # sudo apt install sxhkd # Execute programs using Keybindings
 pacman -S bspwm sxhkd polybar rofi feh
 paru -S picom-ibhagwan-git
